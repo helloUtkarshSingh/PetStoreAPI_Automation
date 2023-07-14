@@ -6,9 +6,10 @@
 	</listeners>
   <test thread-count="5" name="Test">
     <classes>
-      <!--<class name="api.test.Store_Test"/>
-      <class name="api.test.Data_driven_User_Test"/>-->
+      <class name="api.test.Store_Test"/>
+      <class name="api.test.Data_driven_User_Test"/>
       <class name="api.test.User_Test2"/>
+      <class name="api.test.User_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- User_Module_Suite -->

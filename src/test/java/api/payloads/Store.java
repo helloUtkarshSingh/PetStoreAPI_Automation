@@ -40,7 +40,7 @@ public class Store {
 	public void setStatus(String status) {
 		this.status = status;
 	}
-	public boolean isComplete() {
+	public boolean getComplete() {
 		return complete;
 	}
 	public void setComplete(boolean complete) {
